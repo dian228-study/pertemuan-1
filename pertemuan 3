@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Lengkap</title>
+</head>
+<body>
+
+    <h1>Biodata Siswa</h1>
+    <hr>
+
+    <h2>Nama Lengkap</h2>
+    <p><strong>Dian Ayu Dhiya</strong></p>
+
+    <h2>Kelas</h2>
+    <p>XI RPL 1</p>
+
+    <h2>Hobi</h2>
+    <ul>
+        <li>Membaca</li>
+        <li>Memasak</li>
+        <li>menulis</li>
+    </ul>
+
+    <h2>Foto Diri</h2>
+    <!-- Foto dokter kartun -->
+    <img src="https://img.freepik.com/free-vector/cute-doctor-cartoon-character_1308-133544.jpg" 
+         alt="Foto Dokter Kartun" width="300">
+
+    <h2>Quotes Favorit</h2>
+    <blockquote>
+        “teruslah semanhat sampai tamat.”
+    </blockquote>
+
+</body>
+</html>
