@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profil Siswa</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    h1 {
+        text-align: center;
+        color: darkblue;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #333;
+        padding: 8px;
+    }
+</style>
+</head>
+<body style="background-color: #f9f9f9; font-family: sans-serif;">
+
+<h1>Profil Siswa: Dian Ayu Dhiya</h1>
+
+<h2>Biodata</h2>
+<table>
+<tr><th>Nama</th><td>Dian Ayu Dhiya</td></tr>
+<tr><th>Kelas</th><td>XI RPL 1</td></tr>
+<tr><th>TTL</th><td>Sidoarjo, 27 Agustus 2008</td></tr>
+<tr><th>Email</th><td>diandhiya228@gmail.com</td></tr>
+</table>
+
+<h2>Hobi & Cita-Cita</h2>
+<ul>
+    <li>Membaca</li>
+    <li>Menulis</li>
+    <li>Memasak</li>
+</ul>
+<ol>
+    <li>Dokter</li>
+</ol>
+
+<h2>Video Perkenalan</h2>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/hq_woDj3Ncg" 
+frameborder="0" allowfullscreen></iframe>
+
+<h2>Musik Favorit</h2>
+<audio controls>
+    <source src="musik.mp3" type="audio/mpeg">
+    Browser tidak mendukung audio.
+</audio>
+
+</body>
+</html>
