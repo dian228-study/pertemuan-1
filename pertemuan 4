@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran Siswa</title>
+</head>
+<body>
+
+    <h1>Formulir Pendaftaran Siswa Baru</h1>
+
+    <form action="proses.php" method="POST" enctype="multipart/form-data">
+        
+        <!-- Nama -->
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Kelas -->
+        <label for="kelas">Kelas:</label><br>
+        <input type="text" id="kelas" name="kelas" required><br><br>
+
+        <!-- Jurusan -->
+        <label for="jurusan">Jurusan:</label><br>
+        <input type="text" id="jurusan" name="jurusan" required><br><br>
+
+        <!-- Ekskul -->
+        <label>Pilihan Ekstrakurikuler:</label><br>
+        <input type="checkbox" id="tahfidz" name="ekskul[]" value="Tahfidz" required>
+        <label for="tahfidz">Tahfidz</label>
+        <input type="checkbox" id="keagamaan" name="ekskul[]" value="Keagamaan">
+        <label for="keagamaan">Keagamaan</label>
+        <input type="checkbox" id="pmr" name="ekskul[]" value="PMR">
+        <label for="pmr">PMR</label><br><br>
+
+        <!-- Foto -->
+        <label for="foto">Upload Foto Siswa:</label><br>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
+
+        <!-- Minat & Bakat -->
+        <label for="minat">Deskripsi Minat & Bakat:</label><br>
+        <textarea id="minat" name="minat" rows="4" cols="40" required></textarea><br><br>
+
+        <!-- Tombol -->
+        <input type="submit" value="Kirim">
+    </form>
+
+</body>
+</html>
